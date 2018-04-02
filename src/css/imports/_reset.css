@@ -3,7 +3,8 @@
 }
 
 body{
-  font-size: 1.6rem;
+  color: #232323;
+  font-size: 1.45rem;
   font-family: Rubik,-apple-system,BlinkMacSystemFont,sans-serif;
   text-rendering: optimizeLegibility;
 }
@@ -25,7 +26,7 @@ img {
 }
 
 a {
-  color: #222;
+  color: #232323;
 }
 
 *, :before, :after {
@@ -34,7 +35,6 @@ a {
 
 pre {
   background: #F1F1F1;
-  border: 1px solid #E1E1E1;
   border-radius: 4px;
 }
 

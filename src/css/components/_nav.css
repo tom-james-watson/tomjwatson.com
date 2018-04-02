@@ -8,14 +8,10 @@
 .nav-item {
   margin-right: 2rem;
   line-height: 6.5rem;
-  color: #222;
+  color: #232323;
 }
 
 @media (max-width: 420px) {
-  .navbar {
-    font-size: 1.4rem;
-  }
-
   .nav-item {
     margin-right: 1rem;
   }

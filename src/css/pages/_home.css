@@ -32,6 +32,7 @@ main.home {
   & .about {
     margin-top: 4rem;
     max-width: 62rem;
+    font-size: 1.6rem;
   }
 
   & h1 {
@@ -57,7 +58,6 @@ main.home {
 
   & .recent-activity {
     margin: 4rem 0;
-    font-size: 1.4rem;
 
     & .section-title {
       font-size: 1.6rem;
@@ -89,7 +89,6 @@ main.home {
       padding: 2rem;
       padding-bottom: 4rem;
       border: 1px solid #232323;
-      font-size: 1.4rem;
       flex-basis: 48%;
       position: relative;
 
