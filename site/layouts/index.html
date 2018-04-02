@@ -1,0 +1,82 @@
+{{ partial "header" . }}
+
+<main class="home">
+
+  <div class="hero">
+    <div class="container">
+      <h1>Tom J. Watson</h1>
+      <h5>FREELANCE WEB DEVELOPER</h5>
+      <h5>MADRID, SPAIN</h5>
+      <div class="about">
+        <p>
+        Hi, I'm Tom, a full-stack developer with 7 years experience working on high-availability, high-traffic web applications and APIs. I am also the founder of <a href="https://www.artpip.com">Artpip</a>.
+        </p>
+      </div>
+      {{ partial "nav" . }}
+    </div>
+  </div>
+
+  <div class="recent-activity">
+    <div class="container">
+      <div class="one-half column posts">
+        <div class="section-title">Recent Posts</div>
+        <ul class="posts-list">
+          {{ range first 1 (where .Data.Pages "Section" "blog") }}
+          {{ partial "post-summary.html" . }}
+          {{ end }}
+        </ul>
+
+        <ul class="posts-list">
+          {{ range (first 3 (after 1 (where .Data.Pages "Section" "blog") )) }}
+          {{ .Render "li" }}
+          {{ end }}
+        </ul>
+        <a class="more" href="/blog">All posts &raquo;</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <div class="container">
+      <div class="section-title">My Work</div>
+      <div class="projects-list">
+        {{ range $.Site.Data.projects }}
+          <div id="{{ .id }}" class="project list-item">
+            <h5 class="title"><a href="https://{{ .link }}" target="_blank">{{ .title }}</a></h5>
+
+            <div data-project="{{ .id }}" class="img-container ss click-to-expand">
+              <div>
+                <img src="/images/projects/{{ .screenshot }}.png" />
+              </div>
+            </div>
+
+            <div class=" meta-container">
+              <p class="summary">{{ .summary | markdownify }}</p>
+              <p class="desc">{{ .description | markdownify }}</p>
+            </div>
+
+            <ul class="links-list">
+              {{ range .links }}
+              <li>
+                <a href="https://{{ . }}" target="_blank">{{ . }}</a>
+              </li>
+              {{ end }}
+            </ul>
+
+            <span data-project="{{ .id }}" class="show more click-to-expand">
+              More +
+            </span>
+
+            <span data-project="{{ .id }}" class="show less click-to-close">
+              Close -
+            </span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+{{ partial "footer" . }}

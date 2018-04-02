@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 3em;
+  background: #232323;
+  padding-top: 3em;
+  color: #fffffd;
+
+  & ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20rem;
+    list-style: none;
+  }
+
+  & .container {
+    max-width: 90%;
+  }
+
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

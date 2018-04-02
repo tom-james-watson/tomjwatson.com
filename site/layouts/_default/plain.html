@@ -1,0 +1,15 @@
+{{ partial "header" . }}
+
+<main class="post">
+  <div class="container">
+
+    {{ partial "nav" . }}
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+  </div>
+</main>
+
+{{ partial "footer" . }}

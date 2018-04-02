@@ -1,0 +1,19 @@
+{{ partial "header" . }}
+
+<main class="blog">
+
+  <article class="container">
+
+  {{ partial "nav" . }}
+
+  <h3>Blog</h3>
+
+  <ul class="posts-list">
+    {{ range (where .Data.Pages "Section" "blog") }}
+    {{ .Render "li" }}
+    {{ end }}
+  </ul>
+
+</main>
+
+{{ partial "footer" . }}

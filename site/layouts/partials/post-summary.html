@@ -1,0 +1,15 @@
+<li class="post-summary">
+  <div class="meta">
+    <span class="date">
+      {{ .Date.Format "Jan 02, 2006" }}
+    </span>
+  </div>
+  <a href="{{ .Permalink }}" class="title">
+    {{ .Title }}
+  </a>
+
+  <p class="summary">
+    {{ .Summary }}
+    <a href="{{ .Permalink }}" class="more">Read more &raquo;</a>
+  </p>
+</li>

@@ -1,0 +1,176 @@
+main.home {
+
+  & .container {
+    max-width: 1000px
+  }
+
+  & .hero {
+    background: #1EAEDB;
+    color: #fffffd;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+
+    & a {
+      color: inherit;
+    }
+
+    & .nav-item {
+      font-size: 1.8rem;
+    }
+
+    @media (min-width: 550px) {
+      & .nav-item {
+        font-size: 2.4rem;
+      }
+    }
+
+    & h5 {
+      margin: 0;
+    }
+  }
+
+  & .about {
+    margin-top: 4rem;
+    max-width: 62rem;
+  }
+
+  & h1 {
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+
+  & .section-title {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.3rem 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: .75px;
+    background: black;
+    color: #fffffd;
+  }
+
+  & .navbar {
+    & a{
+      color: #fffffd;
+    }
+  }
+
+  & .recent-activity {
+    margin: 4rem 0;
+    font-size: 1.4rem;
+
+    & .section-title {
+      font-size: 1.6rem;
+    }
+
+    & .posts-list {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  & #projects {
+
+    & .projects-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 1000px) {
+      & div.project {
+        flex-basis: 100%;
+      }
+    }
+
+    & .project {
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      padding-bottom: 4rem;
+      border: 1px solid #232323;
+      font-size: 1.4rem;
+      flex-basis: 48%;
+      position: relative;
+
+      & .title {
+        text-transform: initial;
+        border-bottom: 1px dotted;
+      }
+
+      & ul {
+        margin-bottom: 2rem;
+      }
+
+      & .img-container {
+        text-align: center;
+
+        & img {
+          border: 1px solid #ccc;
+          margin-bottom: 2rem;
+          max-width: 100%;
+          max-height: 200px;
+        }
+      }
+
+      & .show {
+        display: inline-block;
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+        padding: 0.3rem 0.8rem;
+        background: black;
+        color: #fffffd;
+      }
+
+      & .less {
+        display: none;
+      }
+
+      & .desc {
+        display: none;
+      }
+
+      & .links-list {
+        display: none;
+      }
+
+      &.active {
+        flex-basis: 100%;
+
+        & img {
+          max-height: 300px;
+        }
+
+        & .more {
+          display: none;
+        }
+
+        & .less {
+          display: inline-block;
+        }
+
+        & .desc {
+          display: inline-block;
+        }
+
+        & .links-list {
+          display: inline-block;
+        }
+      }
+
+      & .links-list {
+        & li {
+          word-break: break-all;
+        }
+      }
+
+    }
+
+    & h5 {
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+    }
+  }
+
+}

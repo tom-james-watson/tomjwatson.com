@@ -1,0 +1,19 @@
+title: 'mountains.io'
+id: mountains.io
+summary:
+  A map-based web app for discovering the world's mountains.
+link:
+  mountains.io
+description: |
+  A web application for browsing the mountains of the world using Google Maps. Zoom and pan around the map to find significant peaks in an area or use the search box to find a mountain. Click a marker to reveal information about each mountain, and click through to the full page view to find further information and discussion. Also my first major experience of getting burned for hot-linking to 3rd party resources - Freebase API has since shutdown taking all images with it, meaning the images of the mountains are no longer available. Lesson learned.
+screenshot:
+  mountain-mapper
+links:
+  - mountains.io
+technologies:
+  - AngularJS
+  - MongoDB
+  - ElasticSearch
+  - Google Maps API
+  - Freebase API
+  - Heroku

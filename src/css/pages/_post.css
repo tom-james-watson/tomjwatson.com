@@ -1,0 +1,15 @@
+section.post {
+
+  & img {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+  }
+
+  & .meta {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+
+}

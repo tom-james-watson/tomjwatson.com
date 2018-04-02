@@ -1,0 +1,12 @@
+.posts-list {
+
+  & .meta {
+    border: 0;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+
+  & a.title {
+    font-weight: 600;
+  }
+}

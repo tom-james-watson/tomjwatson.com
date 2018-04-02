@@ -1,0 +1,16 @@
+title: 'Reddit Comment Collapser'
+id: reddit-comment-collapser
+summary:
+  A more elegant solution for collapsing reddit comment trees
+link:
+  github.com/tom-james-watson/reddit-comment-collapser
+description: |
+  Collapse a comment and all of it's replies by clicking on the column of the comment you wish to collapse. No longer get stuck in the middle of a huge comment chain - simply select the outermost column to collapse the whole top-level-comment.
+screenshot:
+  reddit_comment_collapser
+links:
+  - chrome.google.com/webstore/detail/njmimaecgocggclbecipdimilidimlpl
+  - addons.mozilla.org/en-GB/firefox/addon/reddit_comment_collapser/
+  - github.com/tom-james-watson/reddit-comment-collapser
+technologies:
+  - Native Javascript

@@ -1,0 +1,12 @@
+.posts-list {
+  margin-bottom: 0.5rem;
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+.post-summary {
+  & .title {
+    display: inline-block;
+    font-weight: 600;
+  }
+}

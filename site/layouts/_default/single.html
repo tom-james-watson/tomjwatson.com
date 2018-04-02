@@ -1,0 +1,24 @@
+{{ partial "header" . }}
+
+<section class="post">
+  <div class="container">
+
+    {{ partial "nav" . }}
+
+    <div class="info">
+      <h3 class="title">{{ .Title }}</h3>
+      <div class="meta">
+        {{ .Date.Format "Jan 02, 2006" }}
+      </div>
+    </div>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    {{ template "_internal/disqus.html" . }}
+
+  </div>
+</section>
+
+{{ partial "footer" . }}
