@@ -95,7 +95,6 @@ main.home {
 
       & .title {
         text-transform: initial;
-        border-bottom: 1px dotted;
       }
 
       & ul {

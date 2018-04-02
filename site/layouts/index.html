@@ -44,10 +44,10 @@
           <div id="{{ .id }}" class="project list-item">
             <h5 class="title"><a href="https://{{ .link }}" target="_blank">{{ .title }}</a></h5>
 
-            <div data-project="{{ .id }}" class="img-container ss click-to-expand">
-              <div>
+            <div class="img-container">
+              <a href="https://{{ .link }}" target="_blank">
                 <img src="/images/projects/{{ .screenshot }}.png" />
-              </div>
+              </a>
             </div>
 
             <div class=" meta-container">
