@@ -46,7 +46,7 @@ main.home {
     padding: 0.3rem 0.8rem;
     text-transform: uppercase;
     letter-spacing: .75px;
-    background: black;
+    background: #232323;
     color: #fffffd;
   }
 
@@ -117,7 +117,7 @@ main.home {
         bottom: 2rem;
         left: 2rem;
         padding: 0.3rem 0.8rem;
-        background: black;
+        background: #232323;
         color: #fffffd;
       }
 

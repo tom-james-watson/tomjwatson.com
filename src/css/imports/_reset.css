@@ -7,6 +7,7 @@ body{
   font-size: 1.45rem;
   font-family: Rubik,-apple-system,BlinkMacSystemFont,sans-serif;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 main {
