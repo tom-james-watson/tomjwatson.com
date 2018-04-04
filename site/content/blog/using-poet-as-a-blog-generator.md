@@ -4,6 +4,8 @@ date: 2016-04-18
 tags: [programming, node]
 ---
 
+UPDATE - I have since moved to [using Hugo for the entire site](http://tomjwatson.com/blog/deploying-a-modern-static-site/).
+
 So I decided to finally get around to writing some blog posts.
 
 I'm using [Poet](http://jsantell.github.io/poet/) as a blog generator, which has plugged nicely into my existing node application. I simply add markdown posts to a directory along with some metadata and Poet handily converts these into markup which can then be simply be passed to HTML views.

@@ -4,6 +4,8 @@ main.post {
     display: block;
     margin: auto;
     max-width: 80%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px #888;
   }
 
   & .meta {
