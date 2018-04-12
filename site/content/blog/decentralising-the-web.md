@@ -52,6 +52,6 @@ Also, given that you cannot yet guarantee that enough people are going to be see
 
 ## Conclusion
 
-These are still early days for Dat and Beaker and there are still lots of things that need more work, such as multi-writer dats, key management and usability improvements to the browser. The team behind the technologies are doing fantastic work and I'm sure such these things will be ironed out with time.
+These are still early days for Dat and Beaker and there are plenty of things that need more work, such as multi-writer dats, key management, and usability improvements to the browser. The team behind the technologies are doing fantastic work and I'm sure such things will be ironed out and improved with time.
 
 Beaker truly embodies the spirit of the web as an open platform and I am super excited to see where its development will take us. I don't think Beaker itself will ever actually become a popular application, I see it more as a testing ground and a stepping stone towards the integration of distributed web protocols and technology into more mainstream web applications and browsers. The best we can hope for is for Beaker to develop itself into irrelevance.
