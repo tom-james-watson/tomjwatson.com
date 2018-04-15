@@ -5,6 +5,9 @@
       {{ end }}
       <a class="nav-item" href="/about">About</a>
       <a class="nav-item" href="/#projects">Projects</a>
+      {{ if .IsHome }}
+      <a class="nav-item" href="/meta.space">Meta</a>
+      {{ end }}
       <a class="nav-item" href="/blog/">Blog</a>
     </div>
   </nav>

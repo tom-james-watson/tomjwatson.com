@@ -1,0 +1,28 @@
+{{ partial "header" . }}
+
+<main class="meta-space">
+
+  <div class="container">
+
+    <canvas id="stage" height="135"></canvas>
+
+    <ul>
+    </ul>
+    <ul class="posts-list">
+      {{ range (where .Data.Pages "Section" "meta.space") }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+
+  </div>
+
+</main>
+
+<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+<style>
+body {
+  background: #232323;
+}
+</style>
+
+{{ partial "footer" . }}

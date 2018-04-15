@@ -2,17 +2,19 @@
 
 <main class="blog">
 
-  <article class="container">
+  <div class="container">
 
-  {{ partial "nav" . }}
+    {{ partial "nav" . }}
 
-  <h3>Blog</h3>
+    <h3>Blog</h3>
 
-  <ul class="posts-list">
-    {{ range (where .Data.Pages "Section" "blog") }}
-    {{ .Render "li" }}
-    {{ end }}
-  </ul>
+    <ul class="posts-list">
+      {{ range (where .Data.Pages "Section" "blog") }}
+      {{ .Render "li" }}
+      {{ end }}
+    </ul>
+
+  </div>
 
 </main>
 

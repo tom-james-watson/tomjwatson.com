@@ -40,7 +40,7 @@ See [package.json](package.json#L7) or the included gulp file for all tasks.
 
 ```
 |--site                // Everything in here will be built with hugo
-|  |--content          // Pages and collections - ask if you need extra pages
+|  |--content          // Pages and collections
 |  |--data             // YAML data files with any data for use in examples
 |  |--layouts          // This is where all templates go
 |  |  |--partials      // This is where includes live
