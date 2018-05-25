@@ -30,7 +30,7 @@ Dat URLs are similar to web URLs but with an important difference. Web URLs typi
 
 Dat itself is actually a protocol and realistically users are not going to be using Dat directly. However, some amazing work has been done on [Beaker Browser](https://beakerbrowser.com), which makes the distributed web a user-friendly reality that you can use today. Using the power of Dat, Beaker allows users to access Dats and load them as websites. For example, I share this website itself as a dat and this page can be viewed via Beaker at:
 
-dat://09b4d0f20bdde919767a1f0e75b1e4643218b333a3ddba8ba03752b099e9a0ba/blog/deploying-a-modern-static-site/.
+dat://8ad5c2265d6c66629604db1a3389e977c1c2b2f61e43b8b32db4d2ff1d15e348/blog/deploying-a-modern-static-site/.
 
 ![This website in Beaker](/images/blog/dat_url.png)
 
