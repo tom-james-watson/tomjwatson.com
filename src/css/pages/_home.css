@@ -57,18 +57,15 @@ main.home {
   }
 
   & .recent-activity {
-    margin: 4rem 0;
+    margin-top: 4rem;
 
     & .section-title {
       font-size: 1.6rem;
     }
-
-    & .posts-list {
-      margin-bottom: 2.5rem;
-    }
   }
 
-  & #projects {
+  & .projects {
+    padding-top: 4rem;
 
     & .projects-list {
       display: flex;

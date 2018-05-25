@@ -1,0 +1,17 @@
+title: 'p2p.chat'
+id: p2p-chat
+priority: 1
+summary:
+  Free peer-to-peer video conferencing.
+link:
+  p2p.chat
+description: |
+  A free and open source video conferencing application, powered by WebRTC. Simply create a room, share it with your friends and chat away. The app itself is very small, with the heavylifting done using webrtc-swarm and a signalhub as a signalling server.
+screenshot:
+  p2p.chat
+links:
+  - p2p.chat
+  - github.com/tom-james-watson/p2p.chat
+technologies:
+  - React
+  - WebRTC

@@ -1,5 +1,6 @@
 title: 'mountains.io'
 id: mountains.io
+priority: 4
 summary:
   A map-based web app for discovering the world's mountains.
 link:

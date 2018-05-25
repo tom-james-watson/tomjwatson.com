@@ -1,0 +1,17 @@
+title: 'Old Reddit Redirect'
+id: old-reddit-redirect
+priority: 3
+summary:
+  An extension that ensures Reddit always loads the old design
+link:
+  github.com/tom-james-watson/old-reddit-redirect
+description: |
+  After Reddit releasing what must be one of the most unpopular site resdesigns of all time, I built an extension that simply reroutes all links or page loads to the old.reddit.com design.
+screenshot:
+  old-reddit-redirect
+links:
+  - chrome.google.com/webstore/detail/dneaehbmnbhcippjikoajpoabadpodje
+  - addons.mozilla.org/en-GB/firefox/addon/old-reddit-redirect
+  - github.com/tom-james-watson/old-reddit-redirect
+technologies:
+  - Native Javascript

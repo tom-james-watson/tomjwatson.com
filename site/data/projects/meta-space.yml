@@ -1,0 +1,16 @@
+title: 'meta.space'
+id: meta.space
+priority: 2
+summary:
+  A collection of UI experiments.
+link:
+  tomjwatson.com/meta.space
+description: |
+  Mostly built using Canvas.
+screenshot:
+  meta-space
+links:
+  - tomjwatson.com/meta.space
+technologies:
+  - Native Javascript
+  - Canvas

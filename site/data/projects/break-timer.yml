@@ -1,5 +1,6 @@
 title: 'Break Timer'
 id: break-timer
+priority: 3
 link:
   github.com/tom-james-watson/breaktimer
 summary:

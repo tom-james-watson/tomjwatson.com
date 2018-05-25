@@ -1,5 +1,6 @@
 title: 'Reddit Comment Collapser'
 id: reddit-comment-collapser
+priority: 3
 summary:
   A more elegant solution for collapsing reddit comment trees
 link:

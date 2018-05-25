@@ -1,0 +1,14 @@
+title: 'Conversocial'
+id: conversocial
+jobtitle: Remote Contractor
+timeframe: 2014 - 2017
+summary:
+  Conversocial is a platform for providing social customer care at scale. Used by companies such as Google, Tesco, BBC and RyanAir.
+link:
+  https://www.conversocial.com
+description: |
+  I worked as a remote contractor for Conversocial for 3 years, during which time the comapny grew from a small startup of ~20 employees into a successful and established company. I helped develop their Python platform that processes tens of millions of social posts per day, using technologies such as MongoDB and ElasticSearch. Frontend work included rebuilding their customer-facing web app as a modern React application and creating a proof-of-concept React Native application for a project in collaboration with Google.
+screenshot:
+  conversocial
+links:
+  - https://www.conversocial.com

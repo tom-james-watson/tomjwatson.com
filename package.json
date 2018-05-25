@@ -1,8 +1,8 @@
 {
-  "name": "victor-hugo",
+  "name": "tomjwatson",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "repository": "netlify/victor-hugo",
+  "description": "Source for tomjwatson.com",
+  "repository": "tom-james-watson/tomjwatson.com",
   "main": "index.js",
   "scripts": {
     "hugo": "gulp hugo",

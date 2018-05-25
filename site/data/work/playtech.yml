@@ -1,0 +1,14 @@
+title: 'Playtech'
+id: playtech
+jobtitle: Software Developer
+timeframe: 2012 - 2014
+summary:
+  Playtech is one of the world's largest online gaming companies.
+link:
+  https://www.playtech.com
+description: |
+  I worked on Playtech's lottery product, developing systems that handled millions of transactions per week, using mainly Python and Oracle/PLSQL.
+screenshot:
+  playtech
+links:
+  - https://www.playtech.com

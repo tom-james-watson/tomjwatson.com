@@ -1,7 +1,8 @@
 title: 'Artpip'
 id: artpip
+priority: 1
 summary:
-  An app for macOS and Windows for setting fine art as your desktop background.
+  An app for macOS and Windows for setting fine art as your desktop background. Artpip has several thousand active monthly users and hundreds of dollars of revenue per month.
 link:
   artpip.com
 description: |
@@ -11,9 +12,6 @@ screenshot:
 links:
   - artpip.com
 technologies:
-  - Electron
-  - Node
-  - Javascript
   - Electron
   - Node
   - ReactJS
