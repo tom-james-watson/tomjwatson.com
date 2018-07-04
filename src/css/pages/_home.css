@@ -88,6 +88,7 @@ main.home {
       border: 1px solid #232323;
       flex-basis: 48%;
       position: relative;
+      height: fit-content;
 
       & .title {
         text-transform: initial;
@@ -131,8 +132,6 @@ main.home {
       }
 
       &.active {
-        flex-basis: 100%;
-
         & img {
           max-height: 300px;
         }
