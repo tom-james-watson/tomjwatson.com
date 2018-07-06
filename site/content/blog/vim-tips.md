@@ -219,3 +219,5 @@ This plugin simply renders a nice status line at the bottom of each window. Vim 
 Vim never ceases to amaze me - I feel like I'm still learning as much after nearly a decade of use as I was in the first year. I'm sure there are some mistakes in the examples I've posted, or even better ways of doing some of them. If so - leave a comment and let me know!
 
 If you're interested in my setup or looking for a few more useful snippets, you can find my full .vimrc in my dotfiles - https://github.com/tom-james-watson/dotfiles/blob/master/.vimrc
+
+Join the conversation on Reddit - https://old.reddit.com/r/vim/comments/8wir4r/some_lesserknown_vim_tips_from_8_years_of_use/
