@@ -22,7 +22,7 @@ Discounting for the overhead of calling WebAssembly code, C Wasm seems to consti
 
 ![graph of c outperforming js](/images/blog/c-wasm-vs-js/array-reverse.png)
 
-As we can see from this graph, for a simple array reversal, increasing the array size - and therefore computational complexity - allows us to see just how more performant the C Wasm is.
+As we can see from this graph, for a simple array reversal, increasing the array size - and therefore computational complexity - allows us to see just how more performant the C Wasm is. Testing on mobile devices actually shows an even greater disparity in performance - with C up to 30 times faster on Android Chrome in my experience.
 
 #### 2. Calling WebAssembly is slow
 
