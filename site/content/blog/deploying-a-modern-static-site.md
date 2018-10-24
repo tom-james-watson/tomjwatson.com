@@ -12,7 +12,7 @@ The toolchain was a mess of [Grunt](https://gruntjs.com/) and [Bower](https://bo
 
 The site was also previously hosted on a Hobby instance on Heroku, which was costing me $7 per month for what was effectively a static site.
 
-The best parts of the old site were the markdown file-based blog posts and the use of lightweight template files for rendering the UI, both of which I was keen to keep. I'm a huge fan of React and use it extensively on other projects such as [Artpip](https://www.artpip.com/) and [RMAP](http://recommendmeaphone.com/), but a simple static site does *not* need a javascript-based UI. A static website is:
+The best parts of the old site were the markdown file-based blog posts and the use of lightweight template files for rendering the UI, both of which I was keen to keep. I'm a huge fan of React and use it extensively on other projects such as [RMAP](http://recommendmeaphone.com/), but a simple static site does *not* need a javascript-based UI. A static website is:
 
 - Ultra fast - everything is served from a CDN
 - More secure
