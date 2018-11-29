@@ -1,0 +1,16 @@
+title: 'dcp'
+id: dcp
+priority: 1
+summary:
+  Remote file copy, powered by the Dat protocol.
+link:
+  github.com/tom-james-watson/dat-cp
+description: |
+  dcp copies files between hosts on a network using the peer-to-peer Dat network. dcp can be seen as an alternative to tools like scp, removing the need to configure SSH access between hosts. This lets you transfer files between two remote hosts, without you needing to worry about the specifics of how said hosts reach each other and regardless of whether hosts are behind NATs.
+screenshot:
+  dcp
+links:
+  - github.com/tom-james-watson/dat-cp
+technologies:
+  - Node
+  - Dat
