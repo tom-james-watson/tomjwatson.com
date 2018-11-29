@@ -1,0 +1,19 @@
+title: 'C Wasm vs JS Benchmarks'
+id: cjs
+priority: 2
+summary:
+  Comparing C Wasm and JS performance.
+link:
+  c-js-benchmarks.netlify.com
+description: |
+  A collection of basic performance benchmarks that you can run on your own browser in order to compare C WebAssembly and JavaScript performance.
+screenshot:
+  cjs
+links:
+  - c-js-benchmarks.netlify.com
+  - tomjwatson.com/blog/c-wasm-vs-js
+  - github.com/tom-james-watson/c-js-benchmarks
+technologies:
+  - Wasm
+  - C
+  - JS

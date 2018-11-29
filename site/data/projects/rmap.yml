@@ -4,13 +4,13 @@ priority: 1
 summary:
   A tool for streamlining the process of choosing a new phone.
 link:
-  github.com/tom-james-watson/dat-cp
+  recommendmeaphone.com
 description: |
   RMAP tries to improve the strangely difficult task of choosing your new phone. It does this by letting the user set a budget and narrow-down their search with a simple set of powerful filters. The site is built with React and the search is powered by Elastic Search over AWS lambda. It make take a few seconds to load as it is pretty much archived and currently running on heroku free-tier, which sleeps apps when not in use.
 screenshot:
   rmap
 links:
-  - recommendmeaphone.com/
+  - recommendmeaphone.com
 technologies:
   - Node
   - React
