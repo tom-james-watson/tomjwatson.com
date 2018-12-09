@@ -69,10 +69,12 @@ You can then launch the server with:
 sudo python server.py
 ```
 
-I'd suggest adding an entry to `/etc/rc.local` to ensure the server starts every time your pi restarts. Simply add the following to the bottom of the file:
+I'd suggest adding an entry to `/etc/rc.local` to ensure the server starts every time your pi restarts. Simply add the following to the bottom of the file, just above `exit 0`:
 ```
-sudo python /home/<YOUR USER>/server.py
+sudo python /home/<YOUR USER>/server.py &
 ```
+
+Note the `&` - if you don't include this then your pi will not complete its boot sequence.
 
 You should now be able to control the colour of your pi by making a request such as:
 ```
