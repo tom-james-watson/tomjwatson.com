@@ -1,0 +1,16 @@
+title: 'WebTorrent Protocol'
+id: waystops
+priority: 0
+summary:
+  Proof-of-concept distributed web powered by WebTorrents.
+link:
+  github.com/tom-james-watson/wtp-ext
+description: |
+  This is a proof-of-concept implementation of a distributed web powered by torrents. Instead of the traditional client-server model, websites are loaded directly from torrents, allowing websites to be hosted in a distributed and redundant manner.
+screenshot:
+  wtp-ext
+links:
+  - github.com/tom-james-watson/wtp-ext
+technologies:
+  - Node
+  - ReactJS

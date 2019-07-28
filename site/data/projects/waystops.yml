@@ -1,0 +1,16 @@
+title: 'Waystops'
+id: waystops
+priority: 1
+summary:
+  Webapp for browsing and discovering backpacking destinations.
+link:
+  waystops.com
+description: |
+  Waystops was born out of the frustration that a similar tool didn't already exist. When planning a trip, I want to be able to see what common destinations exist and where they are located on a map - not an article. All data was sourced from Wikivoyage and Wikipedia and is displayed with Mapbox.
+screenshot:
+  waystops
+links:
+  - waystops.com
+technologies:
+  - Node
+  - ReactJS

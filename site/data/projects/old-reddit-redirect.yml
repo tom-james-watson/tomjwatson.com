@@ -1,6 +1,6 @@
 title: 'Old Reddit Redirect'
 id: old-reddit-redirect
-priority: 3
+priority: 5
 summary:
   An extension that ensures Reddit always loads the old design
 link:
