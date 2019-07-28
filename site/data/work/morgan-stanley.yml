@@ -1,0 +1,15 @@
+title: 'Morgan Stanley'
+id: morgan-stanley
+priority: 5
+jobtitle: Software Developer
+timeframe: 2010 - 2011
+summary:
+  Morgan Stanley is a world-leading investment bank.
+link:
+  https://www.morganstanley.com
+description: |
+  Mostly using Perl and Java to ensure their database of financial product reference data was kept up-to-date and accurate. Also where I discovered that the corporate world was not for me!
+screenshot:
+  morgan-stanley
+links:
+  - https://www.morganstanley.com

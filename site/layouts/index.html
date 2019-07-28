@@ -51,7 +51,7 @@
       </ul>
 
       <div class="projects-list">
-        {{ range sort $.Site.Data.work "timeframe" "desc" }}
+        {{ range sort $.Site.Data.work "priority" "asc" }}
           <div id="{{ .id }}" class="project list-item">
             <h5 class="title"><a href="{{ .link }}" target="_blank">{{ .title }}</a></h5>
             <p>{{ .timeframe }} | {{ .jobtitle }}</p>
