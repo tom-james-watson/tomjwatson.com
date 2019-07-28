@@ -36,11 +36,56 @@
     </div>
   </div>
 
+  <div id="projects" class="projects">
+    <div class="container">
+      <div class="section-title">Projects</div>
+
+      <p>Here are some things that I've built over the years.</p>
+
+      <div class="projects-list">
+
+        {{ range sort $.Site.Data.projects "priority" "asc" }}
+          <div id="{{ .id }}" class="project list-item">
+            <h5 class="title"><a href="https://{{ .link }}" target="_blank">{{ .title }}</a></h5>
+
+            <div class="img-container">
+              <a href="https://{{ .link }}" target="_blank">
+                <img src="/images/projects/{{ .screenshot }}.png" />
+              </a>
+            </div>
+
+            <div class=" meta-container">
+              <p class="summary">{{ .summary | markdownify }}</p>
+              <p class="desc">{{ .description | markdownify }}</p>
+            </div>
+
+            <ul class="links-list">
+              {{ range .links }}
+              <li>
+                <a href="https://{{ . }}" target="_blank">{{ . }}</a>
+              </li>
+              {{ end }}
+            </ul>
+
+            <span data-project="{{ .id }}" class="show more click-to-expand">
+              More +
+            </span>
+
+            <span data-project="{{ .id }}" class="show less click-to-close">
+              Close -
+            </span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div id="work" class="projects">
     <div class="container">
       <div class="section-title">Work</div>
 
-      <p>I'm a full-stack developer with 7 years experience working on high-availability, high-traffic web applications and APIs. I have particular expertise in:</p>
+      <p>I'm a full-stack developer with 8 years professional experience working on high-availability, high-traffic web applications and APIs. I have particular expertise in:</p>
 
       <ul>
         <li>Python, Node</li>
@@ -71,51 +116,6 @@
               {{ range .links }}
               <li>
                 <a href="{{ . }}" target="_blank">{{ . }}</a>
-              </li>
-              {{ end }}
-            </ul>
-
-            <span data-project="{{ .id }}" class="show more click-to-expand">
-              More +
-            </span>
-
-            <span data-project="{{ .id }}" class="show less click-to-close">
-              Close -
-            </span>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="projects" class="projects">
-    <div class="container">
-      <div class="section-title">Projects</div>
-
-      <p>Here are some things that I've built over the years.</p>
-
-      <div class="projects-list">
-
-        {{ range sort $.Site.Data.projects "priority" "asc" }}
-          <div id="{{ .id }}" class="project list-item">
-            <h5 class="title"><a href="https://{{ .link }}" target="_blank">{{ .title }}</a></h5>
-
-            <div class="img-container">
-              <a href="https://{{ .link }}" target="_blank">
-                <img src="/images/projects/{{ .screenshot }}.png" />
-              </a>
-            </div>
-
-            <div class=" meta-container">
-              <p class="summary">{{ .summary | markdownify }}</p>
-              <p class="desc">{{ .description | markdownify }}</p>
-            </div>
-
-            <ul class="links-list">
-              {{ range .links }}
-              <li>
-                <a href="https://{{ . }}" target="_blank">{{ . }}</a>
               </li>
               {{ end }}
             </ul>
