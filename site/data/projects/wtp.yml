@@ -1,6 +1,6 @@
 title: 'WebTorrent Protocol'
 id: waystops
-priority: 0
+priority: 1
 summary:
   Proof-of-concept distributed web powered by WebTorrents.
 link:

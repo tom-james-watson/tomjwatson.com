@@ -1,17 +1,18 @@
-title: 'Break Timer'
+title: 'BreakTimer'
 id: break-timer
-priority: 4
+priority: 0
 link:
-  github.com/tom-james-watson/breaktimer
+  breaktimer.app
 summary:
-  Chrome/Firefox Extension for managing periodic breaks.
+  Desktop application for managing periodic breaks.
 description: |
-  Break Timer allows you to set up customizable breaks and will remind you to take them. Taking breaks whilst working or studying is crucial in preventing RSI, eye-strain and tiredness.
+  BreakTimer allows you to set up customizable breaks and will remind you to take them. It is available as a native desktop application for Linux, macOS and Windows.
 screenshot:
   break_timer
 links:
-  - chrome.google.com/webstore/detail/break-timer/hklkdbpicdmlpoiellngedpejjkmapei
-  - https://addons.mozilla.org/en-US/firefox/addon/break-timer-app/
-  - github.com/tom-james-watson/breaktimer
+  - breaktimer.app
+  - github.com/tom-james-watson/breaktimer-app
+  - snapcraft.io/breaktimer
 technologies:
-  - AngularJS
+  - Electron
+  - React
