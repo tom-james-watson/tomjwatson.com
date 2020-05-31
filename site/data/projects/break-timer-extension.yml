@@ -1,0 +1,16 @@
+title: 'Break Timer Extension'
+id: break-timer-extension
+priority: 4
+link:
+  github.com/tom-james-watson/breaktimer
+summary:
+  Chrome/Firefox Extension for managing periodic breaks.
+description: |
+  Break Timer allows you to set up customizable breaks and will remind you to take them. Taking breaks whilst working or studying is crucial in preventing RSI, eye-strain and tiredness.
+screenshot:
+  break_timer_extension
+links:
+  - chrome.google.com/webstore/detail/break-timer/hklkdbpicdmlpoiellngedpejjkmapei
+  - github.com/tom-james-watson/breaktimer
+technologies:
+  - AngularJS

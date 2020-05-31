@@ -1,0 +1,17 @@
+title: 'Emote'
+id: emote
+priority: 0
+link:
+  https://github.com/tom-james-watson/emote
+summary:
+  Emoji Picker for Linux written in GTK3
+description: |
+  Emote is a modern emoji picker for Linux rocket. Written in GTK3, Emote is lightweight and stays out of your way.
+screenshot:
+  emote
+links:
+  - github.com/tom-james-watson/emote
+  - snapcraft.io/emote
+technologies:
+  - Python
+  - GTK3
