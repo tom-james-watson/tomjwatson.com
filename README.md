@@ -9,13 +9,13 @@ It is based off of the [netlify/victor-hugo](https://github.com/netlify/victor-h
 ### Prerequisites
 
 ```bash
-yarn install
+npm install
 ```
 
 ### Development
 
 ```bash
-yarn start
+npm start
 ```
 
 Then visit http://localhost:3000/ to preview the website. BrowserSync will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
@@ -25,13 +25,13 @@ Then visit http://localhost:3000/ to preview the website. BrowserSync will autom
 To build a static version of the website inside the `/dist` folder, run:
 
 ```bash
-yarn run build
+npm run build
 ```
 
 To get a preview of posts or articles not yet published, run:
 
 ```bash
-yarn run build-preview
+npm run build-preview
 ```
 
 See [package.json](package.json#L7) or the included gulp file for all tasks.
