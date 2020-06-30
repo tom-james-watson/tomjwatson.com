@@ -6,6 +6,7 @@ timeframe: 2017 - 2019
 summary:
   Matters Media is a publishing company that creates and runs multiple news websites serving tens of millions of users per month.
 link:
+  https://www.greenmatters.com
 description: |
   I developed Matters Media's custom CMS platform that powers all of their websites, helping to move them off of Wordpress. Scalability and availability were the focus, with much time spent building high-performance NodeJS APIs and rock-solid caching on Redis. I also developed mutlitple integrations with third party publishing platforms such as Facebook Instant Articles and Apple News, as well as developing an intelligent Ads Management system for Facebook Ads.
 screenshot:
