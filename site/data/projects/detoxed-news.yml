@@ -1,0 +1,17 @@
+title: 'detoxed.news'
+id: detoxed.news
+priority: 0
+link:
+  detoxed.news
+summary:
+  The important news, without the toxicity.
+description: |
+  detoxed.news scrapes Wikipedia's Current Event Portal and repackages the data into a more readable format. The motivation was to provide a way to keep up with current events without having to subject yourself to the toxicity of the 24 hour news cycle.
+screenshot:
+  detoxed-news
+links:
+  - detoxed.news
+  - github.com/tom-james-watson/detoxed-news
+technologies:
+  - Typescript
+  - 11ty
