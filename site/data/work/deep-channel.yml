@@ -1,0 +1,15 @@
+title: 'Deep Channel'
+id: deep-channel
+priority: 0
+jobtitle: Technical Lead
+timeframe: 2019 - Ongoing
+summary:
+  Deep Channel is creating next generation of development tooling for modern data teams.
+link:
+  htps://www.deepchannel.com
+description: |
+  I was the first engineer on Deep Channel Studio, a comprehensive data IDE for working with warehouses, dbt projects, and notebooks. The IDE is an electron application built in Typescript. I took the initial vision and developed it into a usable MVP. I have since helped grow the team out and and am currently leading ongoing development of the application.
+screenshot:
+  deep-channel
+links:
+  - https://www.deepchannel.com
